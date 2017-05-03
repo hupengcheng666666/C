@@ -1,3 +1,4 @@
+
 /***********************************************************
 求10位学生中成绩最好的
 并输出其信息
@@ -12,7 +13,8 @@ struct Student
     int num;
     float score[3];
     float average;
-}student[10] ,*p;
+}
+struct student[10] ,*p;
 
 
 
